@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirat Escape Game</title>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.2/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="pirats.css"/>
+</head>
+<body>
+
+
+<div class="mobileBackground">
+    <img src="./img/backgroundImg.jpg" alt="">
+    <div id="indexScreen" class="mobileScreen">
+        <div class="container">
+            <div id="initialScreen">
+                <h1>Pirat Escape Game</h1>
+                <div class="invitationContainer">
+                    <button type="submit" class=" buttonPrimaryDark" id="newGameButton">
+                        Neues Spiel erstellen
+                    </button>
+                    <p id="choose">oder</p>
+                    <div class="invitationCodeField">
+                        <input id="invitationCode" type="text" placeholder="Code eingeben">
+                    </div>
+                    <div class="buttonGroup">
+                        <a href="story.html" class="buttonPrimary" id="joinGameButton">Spiel beitreten</a>
+                    </div>
+                    <audio autoplay src="meeresrauschen.mp3"></audio>
+                </div>
+              </div>
+                <div id="gameScreen">
+                    <div>
+                        <p>Der Code für dein Spiel lautet: <span id="gameCodeDisplay"></span></p>
+                    </div>
+                </div>
+        </div>
+    </div> 
+</div>
+    
+</body>
+</html>
