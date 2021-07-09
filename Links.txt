@@ -4,6 +4,8 @@ https://github.com/Hannah257/Kreativkonzeption
 
 
 
-Link zum Prototyp:
+Link zum Prototyp Link zum Prototypen
+(bitte den Prototypen herunterladen und mit dem Live Server öffnen,
+da die Backgroundimages über GitHub-Pages nicht laden):
 
 https://hannah257.github.io/Kreativkonzeption/Prototyp/index.html 
